@@ -1,0 +1,29 @@
+[INFO ] 2021-09-20 16:18:55.595 [main] ExtentManager - File name in CSV is config.properties
+[INFO ] 2021-09-20 16:18:55.906 [main] ExtentManager - ******************** Start :- Execution Started ********************
+[INFO ] 2021-09-20 16:18:58.443 [main] ExtentManager - ************TC001_CreateSingleUser************
+[INFO ] 2021-09-20 16:18:58.443 [main] ExtentManager - curl 'https://reqres.in/api/users' -H 'Accept: */*' -H 'Content-Type: application/json; charset=UTF-8' -H 'Host: reqres.in' -H 'Connection: Keep-Alive' -H 'User-Agent: Apache-HttpClient/4.5.6 (Java/15.0.1)' --data-binary '{
+  "name" : "RAQPR",
+  "job" : "Test Manager"
+}' --compressed --insecure --verbose
+[INFO ] 2021-09-20 16:18:58.444 [main] ExtentManager - Response is {"name":"RAQPR","job":"Test Manager","id":"541","createdAt":"2021-09-20T10:48:58.014Z"}
+[INFO ] 2021-09-20 16:18:58.444 [main] ExtentManager - Response Status Code = 201
+[INFO ] 2021-09-20 16:18:58.444 [main] ExtentManager - Response time consumed is = 946
+[INFO ] 2021-09-20 16:18:58.444 [main] ExtentManager - Response Headers are Date=Mon, 20 Sep 2021 10:48:58 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=87
+Connection=keep-alive
+x-powered-by=Express
+access-control-allow-origin=*
+etag=W/"57-JPfd6Sqdd20Hh2AhGuzo4oPuIOA"
+via=1.1 vegur
+CF-Cache-Status=DYNAMIC
+Expect-CT=max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To={"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ZyLyIz1BnYDZCQfbC2lxFbkkzAeyu942NAVzBZQZ5EVNv4m7b7InATx4wn%2BtxIOTTaiD6b0KJ%2BVZF7SvoRQAjBJ%2FSoLJprdbGMFE5b7opirBX8vChOT%2BTvEV4pI%3D"}],"group":"cf-nel","max_age":604800}
+NEL={"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server=cloudflare
+CF-RAY=691a7c01487d2e76-BOM
+alt-svc=h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+[INFO ] 2021-09-20 16:18:58.444 [main] ExtentManager - Http Status Code Validation<br><b>Actual : </b>201<br><b>Expected : </b>201
+[INFO ] 2021-09-20 16:18:58.444 [main] ExtentManager - <br><b>Actual : </b>RAQPR<br><b>Expected : </b>RAQPR
+[INFO ] 2021-09-20 16:18:58.444 [main] ExtentManager - <br><b>Actual : </b>Test Manager<br><b>Expected : </b>Test Manager
+[INFO ] 2021-09-20 16:18:58.445 [main] ExtentManager - TC001_CreateSingleUser = [Pass]<br>
