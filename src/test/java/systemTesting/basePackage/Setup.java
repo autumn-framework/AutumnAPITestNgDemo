@@ -64,6 +64,8 @@ public class Setup {
     public synchronized void setServerReportDetails() {
         if (Constants.JENKINSRUN) {
             ReportingGenericFunctions.setReportLoc(REPORT_FOLDER_NAME, JENKINS_REPORT_LOC, REPORT_SERVER_IP);
+        }else{
+            ReportingGenericFunctions.setReportLoc(REPORT_FOLDER_NAME,OUTPUT_FOLDER_REPORT,null);
         }
     }
 
