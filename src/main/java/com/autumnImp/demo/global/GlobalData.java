@@ -5,7 +5,7 @@ public class GlobalData {
     //Extent Report
     public static final String FILE_NAME_REPORT = "AutomationReport";
     public static final String FILE_NAME_REPORT_PERF = "PerfReport";
-    public static final String OUTPUT_FOLDER_REPORT = "reports/Automation";
+    public static final String OUTPUT_FOLDER_REPORT = "reports/";
     public static final String REPORT_TITLE = "API Automation";
 
     //Email Report
