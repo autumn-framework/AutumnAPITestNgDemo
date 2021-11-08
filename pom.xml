@@ -158,27 +158,27 @@
         <dependency>
             <groupId>io.github.autumn-framework</groupId>
             <artifactId>autumn-api</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
         </dependency>
         <dependency>
             <groupId>io.github.autumn-framework</groupId>
             <artifactId>autumn-executors</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
         </dependency>
         <dependency>
             <groupId>io.github.autumn-framework</groupId>
             <artifactId>autumn-reporting</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
         </dependency>
         <dependency>
             <groupId>io.github.autumn-framework</groupId>
             <artifactId>autumn-jira</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
         </dependency>
         <dependency>
             <groupId>io.github.autumn-framework</groupId>
             <artifactId>autumn-utils</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
         </dependency>
     </dependencies>
 </project>
