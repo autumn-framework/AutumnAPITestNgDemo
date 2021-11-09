@@ -1,0 +1,55 @@
+[INFO ] 2021-11-09 20:16:17.401 [main] ExtentManager - File name in CSV is config.properties
+[INFO ] 2021-11-09 20:16:17.578 [main] ExtentManager - ******************** Start :- Execution Started ********************
+[INFO ] 2021-11-09 20:16:19.827 [TestNG-test=Test Suite-2] ExtentManager - ************TC001_GetUserData************
+[INFO ] 2021-11-09 20:16:19.827 [TestNG-test=Test Suite-2] ExtentManager - curl 'https://reqres.in/api/users?page=2' -H 'Content-Type: application/json; charset=UTF-8' -H 'Accept: */*' -H 'Host: reqres.in' -H 'Connection: Keep-Alive' -H 'User-Agent: Apache-HttpClient/4.5.6 (Java/14.0.2)' --compressed --insecure --verbose
+[INFO ] 2021-11-09 20:16:19.827 [TestNG-test=Test Suite-2] ExtentManager - Response is {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+[INFO ] 2021-11-09 20:16:19.827 [TestNG-test=Test Suite-2] ExtentManager - Response Status Code = 200
+[INFO ] 2021-11-09 20:16:19.827 [TestNG-test=Test Suite-2] ExtentManager - Response time consumed is = 820
+[INFO ] 2021-11-09 20:16:19.827 [TestNG-test=Test Suite-2] ExtentManager - Response Headers are Date=Tue, 09 Nov 2021 14:46:19 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+x-powered-by=Express
+access-control-allow-origin=*
+etag=W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+via=1.1 vegur
+Cache-Control=max-age=14400
+CF-Cache-Status=HIT
+Age=2183
+Expect-CT=max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To={"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=aHybYZr4FMb0UUEKcBHEYws5FuxLdfnxNr4W0AKHVc93ff1RAyXn4%2FE9zdrM9AUUEL76XKBc2Xm9ZJ7SRUyBWPWvaIDHYffeniqiEwzE2UUUAMjG3jW8w18CJgQ%3D"}],"group":"cf-nel","max_age":604800}
+NEL={"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary=Accept-Encoding
+Server=cloudflare
+CF-RAY=6ab7d4730b693206-BOM
+Content-Encoding=gzip
+alt-svc=h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+[INFO ] 2021-11-09 20:16:19.827 [TestNG-test=Test Suite-2] ExtentManager - TC001_GetUserData = [Fail]<br>
+[INFO ] 2021-11-09 20:16:19.827 [TestNG-test=Test Suite-2] ExtentManager - com.autumnImp.demo.exceptions.APIStatusExceptions.HttpStatusCodeException: java.lang.AssertionError: Http Status Code Validation expected [201] but found [200]
+[INFO ] 2021-11-09 20:16:19.855 [TestNG-test=Test Suite-1] ExtentManager - ************TC001_CreateSingleUser************
+[INFO ] 2021-11-09 20:16:19.856 [TestNG-test=Test Suite-1] ExtentManager - curl 'https://reqres.in/api/users' -H 'Accept: */*' -H 'Content-Type: application/json; charset=UTF-8' -H 'Host: reqres.in' -H 'Connection: Keep-Alive' -H 'User-Agent: Apache-HttpClient/4.5.6 (Java/14.0.2)' --data-binary '{
+  "name" : "HVYJN",
+  "job" : "Test Manager"
+}' --compressed --insecure --verbose
+[INFO ] 2021-11-09 20:16:19.856 [TestNG-test=Test Suite-1] ExtentManager - Response is {"name":"HVYJN","job":"Test Manager","id":"357","createdAt":"2021-11-09T14:46:19.584Z"}
+[INFO ] 2021-11-09 20:16:19.856 [TestNG-test=Test Suite-1] ExtentManager - Response Status Code = 201
+[INFO ] 2021-11-09 20:16:19.856 [TestNG-test=Test Suite-1] ExtentManager - Response time consumed is = 1018
+[INFO ] 2021-11-09 20:16:19.856 [TestNG-test=Test Suite-1] ExtentManager - Response Headers are Date=Tue, 09 Nov 2021 14:46:19 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=87
+Connection=keep-alive
+x-powered-by=Express
+access-control-allow-origin=*
+etag=W/"57-wVbivV3plJ8z2sOLks/GnXl9irY"
+via=1.1 vegur
+CF-Cache-Status=DYNAMIC
+Expect-CT=max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To={"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=oqaIzlUFgFzgEOoesUmA1dMQAbvJVxGX%2BNFdJrUgp1aY7CHckMCl0jx8XGf1x3FRWfaasqhCqiXbNUDbP2MbxnU5wiINYBzg4aPZ8je%2F1Z7EuEyNdKDabBObIUM%3D"}],"group":"cf-nel","max_age":604800}
+NEL={"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server=cloudflare
+CF-RAY=6ab7d4731e1b0ecc-BOM
+alt-svc=h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+[INFO ] 2021-11-09 20:16:19.856 [TestNG-test=Test Suite-1] ExtentManager - Http Status Code Validation<br><b>Actual : </b>201<br><b>Expected : </b>201
+[INFO ] 2021-11-09 20:16:19.856 [TestNG-test=Test Suite-1] ExtentManager - <br><b>Actual : </b>HVYJN<br><b>Expected : </b>HVYJN
+[INFO ] 2021-11-09 20:16:19.856 [TestNG-test=Test Suite-1] ExtentManager - <br><b>Actual : </b>Test Manager<br><b>Expected : </b>Test Manager
+[INFO ] 2021-11-09 20:16:19.856 [TestNG-test=Test Suite-1] ExtentManager - TC001_CreateSingleUser = [Pass]<br>

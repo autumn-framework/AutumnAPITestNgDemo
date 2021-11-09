@@ -21,7 +21,7 @@ public class Execute_GetUsers extends Setup {
         String pageNumber = "2";
         GetUsers getUsers = new GetUsers(pageNumber);
         getUsers.createRequestJsonAndExecute();
-        CommonValidation.getInstance().basicAsserts(getUsers, GetUserStatus.UserGetParams.SUCCESS_200);
+        CommonValidation.getInstance().basicAsserts(getUsers, GetUserStatus.UserGetParams.SUCCESS_201);
 
     }
 }

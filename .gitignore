@@ -2,6 +2,5 @@
 /bin/
 /.idea/
 Autumn-Demo.iml
-/reports/
 src/main/main.iml
 src/test/test.iml
